@@ -71,7 +71,10 @@ ul {
 #navbar ul.main-menu {
     justify-content: space-between;
     align-items: center;
-    height: 72px;
+}
+
+#navbar ul.main-menu li {
+    padding: 12px 0px;
 }
 
 #navbar ul.main-menu li a{
@@ -84,6 +87,7 @@ ul {
     text-align: center;
     font-weight: bold;
     border: 1px solid #1d1d1d;
+    transition: all 0.5s ease-in-out;
 }
 
 #navbar ul.main-menu li a:first-child {
@@ -353,6 +357,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background: #262b2a;
     padding: 10px 10px;
     color: #828282;
+    resize: none;
     transition: all 0.3s ease;
 }
 
@@ -572,6 +577,14 @@ ul.list-item-post li .description-salon .line-paraphar {
     margin: 0px 80px;
 }
 
+.footer .box-footer .info-hair-designer {
+    padding: 0px 40px;
+}
+
+.footer .box-footer .my-info-address {
+    padding: 0px 40px;
+}
+
 .footer .box-footer .info-hair-designer .box-body {
     margin-top: 40px;
 }
@@ -589,6 +602,7 @@ ul.list-item-post li .description-salon .line-paraphar {
 .footer .box-footer .my-info-address .title-myaddress {
     font-weight: 300;
     color: #848484;
+    font-size: 25px;
 }
 
 /* End footer */
