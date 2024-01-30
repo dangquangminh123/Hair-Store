@@ -225,7 +225,6 @@ ul {
     list-style: none;
     padding: 0px;
     text-align: center;
-    /* flex-wrap: wrap; */
     justify-content: space-around;
 }
 
@@ -301,6 +300,7 @@ ul {
 #contact-form {
     background: #262b2a;
     padding-top: 19px;
+    padding-left: 32px;
     height: auto;
     padding-bottom: 95px;
 }
