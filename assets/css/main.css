@@ -302,13 +302,15 @@ ul {
   padding-bottom: 95px;
 }
 
-#contact-form .title-opinion .your-opinion {
+#contact-form .your-opinion {
   color: white;
   border: 1px solid #5a5a5a;
   padding: 10px 6px;
   font-size: 30px;
   font-weight: 400;
-  margin: 10px 485px;
+  /* margin: 0px auto; */
+  width: 30%;
+  text-align: center;
 }
 
 #contact-form .form-info {
